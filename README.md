@@ -2,9 +2,10 @@
 Practice for passing objects as arguments.
 
 ## Set up:
-1. `clone` down the repo
+1. Form and then clone the repo
 2. `cd` into the repo's root directory
-3. run `npm install`
+3. Run `npm install`
+4. Once the time is up, add, commit, and push up your code. Send your instructors the link to your repo.
 
 ## How to Run The Tests
 
