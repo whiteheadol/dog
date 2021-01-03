@@ -3,7 +3,7 @@ Practice for passing objects as arguments.
 
 ## Set up:
 1. `clone` down the repo
-2. `cd` into the repo's root directory by running `cd objectsandclasses`
+2. `cd` into the repo's root directory
 3. run `npm install`
 
 ## How to Run The Tests
