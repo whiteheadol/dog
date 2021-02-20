@@ -18,10 +18,15 @@ class Person {
     this.dog.eat();
   }
 
-  introducePupPals(dogs) {
+  goToDogPark(dogs) {
     this.dog.currentFriends.push(...dogs);
-    console.log(this.dog.playWithFriends());
+    this.dog.playWithFriends();
   }
+
+  goHome() {
+    this.dog.currentFriends = [];
+  }
+
 }
 
 module.exports = Person;
