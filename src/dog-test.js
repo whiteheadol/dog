@@ -45,9 +45,10 @@ describe("Dog", function() {
 
     assert.equal(connie.energyLevel, 5);
 
-    connie.fetchBall();
+    var fetchingPup = connie.fetchBall();
 
     assert.equal(connie.energyLevel, 4);
+    assert.equal(fetchingPup, 'This is fun!');
   })
 
   it('should not fetch the ball if they\'re too tried', function() {

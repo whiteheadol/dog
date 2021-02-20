@@ -17,6 +17,7 @@ class Dog {
   fetchBall() {
     if(this.energyLevel > 3) {
       this.energyLevel--;
+      return `This is fun!`;
     } else {
       return `Nah, I'm going to sleep instead.`;
     }
