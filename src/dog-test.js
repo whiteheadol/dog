@@ -1,11 +1,11 @@
-var Pet = require("./pet.js");
+var Dog = require("./dog.js");
 var assert = require('chai').assert;
 
-describe("Pet", function() {
+describe("Dog", function() {
 
   it.skip('should have a name, price per unit, amount, and units', function() {
-    var thread = new Pet('thread', .25, 8, 'spools');
-    var fabric = new Pet('fabric', 4, 3, 'yards');
+    var thread = new Dog('thread', .25, 8, 'spools');
+    var fabric = new Dog('fabric', 4, 3, 'yards');
 
     assert.equal(thread.name, 'thread');
     assert.equal(thread.price, .25);

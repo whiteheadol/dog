@@ -1,5 +1,5 @@
 var Person = require("./person.js");
-var Pet = require("./pet.js");
+var Dog = require("./dog.js");
 var assert = require('chai').assert;
 
 describe("Person", function() {
