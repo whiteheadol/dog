@@ -4,6 +4,10 @@ class Person {
     this.dog = dog;
   }
 
+  fillFoodBowl() {
+    this.dog.eat();
+  }
+
   throwBall() {
     var dogReaction = this.dog.fetchBall();
 
@@ -13,20 +17,7 @@ class Person {
       return `Oh, I think ${this.dog.name} is too tired. I guess we won't play fetch right now.`;
     }
   }
-
-  fillFoodBowl() {
-    this.dog.eat();
-  }
-
-  goToDogPark(dogs) {
-    this.dog.currentFriends.push(...dogs);
-    this.dog.playWithFriends();
-  }
-
-  goHome() {
-    this.dog.currentFriends = [];
-  }
-
+  
 }
 
 module.exports = Person;
