@@ -1,5 +1,5 @@
-# Material + Craft Tests
-Practice for passing objects as arguments.
+# Pet + Person Test Suite
+Practice for class to class interaction.
 
 ## Set up:
 1. Clone this repo to your machine
@@ -8,15 +8,14 @@ Practice for passing objects as arguments.
 
 ## How to Run The Tests
 
-Start by passing the Material tests using:
+Start by passing the Pet tests using:
 
 ```
-npm test src/material-test.js
+npm test src/pet-test.js
 ```
 
-Then, pass the Craft tests using:
+Then, pass the Person tests using:
 
 ```
-npm test src/craft-test.js
+npm test src/person-test.js
 ```
-
