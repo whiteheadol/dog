@@ -4,7 +4,7 @@ var assert = require('chai').assert;
 
 describe("Person", function() {
 
-  it.skip('should have a type', function() {
+  it('should have a type', function() {
     var crossStitch = new Person({ type: 'cross stitch' });
     var macrame = new Person({ type: 'macrame' });
 
