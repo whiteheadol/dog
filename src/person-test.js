@@ -33,17 +33,17 @@ describe("Person", function() {
   })
 
   it('should notice when dog no longer wants to play', function() {
-    var cap = new Dog({ name: 'Cap', age: 0.5});
-    var kayla = new Person('Kayla', cap);
+    var connie = new Dog({ name: 'Conrad', age: 0.5});
+    var kari = new Person('Kari', connie);
 
-    var firstThrow = kayla.throwBall();
-    var secondThrow = kayla.throwBall();
+    var firstThrow = kari.throwBall();
+    var secondThrow = kari.throwBall();
 
-    assert.equal(secondThrow, 'Cap loves playing fetch!');
+    assert.equal(secondThrow, 'Conrad loves playing fetch!');
 
-    var thirdThrow = kayla.throwBall();
+    var thirdThrow = kari.throwBall();
 
-    assert.equal(thirdThrow, 'Oh, I think Cap is too tired. I guess we won\'t play fetch right now.');
+    assert.equal(thirdThrow, 'Oh, I think Conrad is too tired. I guess we won\'t play fetch right now.');
   })
 
 })
