@@ -1,5 +1,5 @@
-# Pet + Person Test Suite
-Practice for class to class interaction.
+# Dog + Person Test Suite
+Practice class to class interactions!
 
 ## Set up:
 1. Clone this repo to your machine
