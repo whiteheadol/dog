@@ -8,10 +8,10 @@ Practice for class to class interaction.
 
 ## How to Run The Tests
 
-Start by passing the Pet tests using:
+Start by passing the Dog tests using:
 
 ```
-npm test src/pet-test.js
+npm test src/dog-test.js
 ```
 
 Then, pass the Person tests using:
