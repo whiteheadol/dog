@@ -8,13 +8,13 @@ Practice for class to class interaction.
 
 ## How to Run The Tests
 
-Start by passing the Dog tests using:
+The `dog` tests are already passing. You can check by running:
 
 ```
 npm test src/dog-test.js
 ```
 
-Then, pass the Person tests using:
+Familiarize yourself with the existing code. Then, start passing the `person` tests:
 
 ```
 npm test src/person-test.js
