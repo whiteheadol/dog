@@ -14,7 +14,7 @@ describe("Person", function() {
   })
 
   it.skip('should be able to have no dog', function() {
-    var dawn = new Person({ name: 'Dawn' });
+    var dawn = new Person('Dawn');
 
     assert.equal(dawn.dog, undefined);
   })
