@@ -51,7 +51,7 @@ describe("Dog", function() {
     assert.equal(fetchingPup, 'This is fun!');
   })
 
-  it('should not fetch the ball if they\'re too tried', function() {
+  it('should not fetch the ball if they\'re too tired', function() {
     //note: they should only fetch with an energy level of 3 or higher
     var connie = new Dog({ name: 'Conrad', age: 4 });
 
