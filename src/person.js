@@ -8,7 +8,8 @@ class Person {
   }
 
 fillFoodBowl() {
-  this.dog.hungry = false;
+  // this.dog.hungry = false;
+  this.dog.eat();
 }
 
 // throwBall() {
